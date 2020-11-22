@@ -1,16 +1,17 @@
 import React from "react";
 import logingImg from "../../../src/images.png";
 
-export class login extends React.Component{
+export class Login extends React.Component{
+    // eslint-disable-next-line no-useless-constructor
     constructor(props){
         super(props);
     }
     render(){
-        return <div className="base-container">
+        return <div className="base-container" ref={this.props.containerRef}>
             <div className="header">Login</div>
             <div className="content"></div>
                 <div className="image">
-                    <img src={loginImg} />
+                    <img src={logingImg} />
                 </div>
                 <div className="form"> 
                     <div className="form-group">
@@ -24,7 +25,7 @@ export class login extends React.Component{
 
             </div>
             <div className="footer">
-                <buttom type="button"className="btn">Login</buttom>
+                <button type="button"className="btn">Login</button>
             </div>
         </div>
     }
