@@ -1,15 +1,12 @@
 import React from "react";
-import logo from './logo.svg';
-import './App.scss';
+import "./App.scss";
 import { Login, Register } from "./components/login/index";
 
-
 class App extends React.Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      isLogginActive: true,
+      isLogginActive: true
     };
   }
 
@@ -57,7 +54,6 @@ class App extends React.Component {
     );
   }
 }
-
 
 const RightSide = props => {
   return (
