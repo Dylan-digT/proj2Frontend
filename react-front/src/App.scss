@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #09d4e291;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90%;
-    background-color: #3498db;
+    background-color: #1da583;
     width: 100%;
     position: absolute;
     right: -34%;
@@ -110,13 +110,13 @@
   font-size: 21px;
   padding: 5px 20px;
   border: 0;
-  background-color: #3498db;
+  background-color: #29b69e;
   color: #fff;
   border-radius: 3px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
   &:hover {
-    background-color: #2386c8;
+    background-color: #157a64;
   }
   &:focus {
     outline: none;
